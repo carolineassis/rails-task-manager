@@ -1,6 +1,3 @@
-<form action="/tasks" method="post">
-  <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
-  <input type="checkbox" name="task[completed]">
-  <input type="text" name="task[description]" placeholder="write your task">
-  <input type="submit" class="btn btn-warning">
-</form>
+<h2>New task</h2>
+
+<%= render 'form' %>

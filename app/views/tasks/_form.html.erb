@@ -1,1 +1,6 @@
+<%= form_for @task do |f| %>
+  <%= f.check_box :completed %>
+  <%= f.text_field :description, placeholder: 'write your task' %>
+  <%= f.submit %>
+<% end %>
 
